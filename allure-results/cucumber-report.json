@@ -14,7 +14,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 268721499
+              "duration": 748512199
             }
           },
           {
@@ -27,7 +27,7 @@
             },
             "result": {
               "status": "passed",
-              "duration": 11957783700
+              "duration": 5195836199
             }
           },
           {
@@ -36,11 +36,11 @@
             "line": 5,
             "name": "Enter the Valid Credentails \"Admin\" and \"admin123\"",
             "match": {
-              "location": "Orange\\Smoke\\step.js:14"
+              "location": "Orange\\Smoke\\step.js:19"
             },
             "result": {
               "status": "passed",
-              "duration": 1471063200
+              "duration": 3156625200
             }
           },
           {
@@ -48,7 +48,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 425499
+              "duration": 605725800
             }
           }
         ],
