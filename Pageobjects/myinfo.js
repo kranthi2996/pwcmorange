@@ -1,4 +1,4 @@
-class Myinfo {
+class myinfo {
     
     constructor(page) {
         this.page = page;
@@ -7,4 +7,4 @@ class Myinfo {
     }      
         
 }
-module.exports = { Myinfo };        
+module.exports = { myinfo };        

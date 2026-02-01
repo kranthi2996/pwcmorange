@@ -8,8 +8,8 @@ const { myinfo } = require("../../Pageobjects/myinfo");
 
 Before(async function () {
   this.infopage = new myinfo(this.page);
-  this.infopage = this.infopage;
 });
+
 
 Then("Navigate to My Info section", async function () {
   await this.infopage.myInfoTab.click();

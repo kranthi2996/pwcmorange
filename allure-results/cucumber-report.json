@@ -14,16 +14,15 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 722296300
+              "duration": 750891000
             }
           },
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
-              "status": "failed",
-              "duration": 8454700,
-              "error_message": "TypeError: myinfo is not a constructor\n    at World.<anonymous> (C:\\Users\\krant\\OneDrive\\Documents\\PwCmOrange\\pwcmorange\\Orange\\regression\\regression.step.js:10:19)"
+              "status": "passed",
+              "duration": 857299
             }
           },
           {
@@ -35,8 +34,8 @@
               "location": "Orange\\Smoke\\step.js:10"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 7497972799
             }
           },
           {
@@ -48,8 +47,8 @@
               "location": "Orange\\Smoke\\step.js:18"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 3626207000
             }
           },
           {
@@ -61,8 +60,8 @@
               "location": "Orange\\regression\\regression.step.js:14"
             },
             "result": {
-              "status": "skipped",
-              "duration": 0
+              "status": "passed",
+              "duration": 5484985700
             }
           },
           {
@@ -70,7 +69,7 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 545869000
+              "duration": 451794900
             }
           }
         ],
