@@ -1,11 +1,13 @@
 module.exports = {
   default: {
-    require: ['Orange/Smoke/step.js'],
+    require: ['utils/support.js', 'Orange/Smoke/step.js'],
     paths: ['Orange/**/*.feature'],
     format: [
-      'progress-bar',
+      'html:allure-results/cucumber-report.html',
+      'json:allure-results/cucumber-report.json',
       'allure-cucumberjs/reporter'
-    ]
+    ],
+    formatOptions: { snippetInterface: 'async-await' }
   }
 };
 

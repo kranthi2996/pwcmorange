@@ -1,0 +1,66 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "orange-hrm-login;:-to-verify-that-user-is-able-to-login-into-system-succesfully",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": ": To Verify that User is able to Login into system succesfully",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 268721499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Launch the HRM Portal",
+            "match": {
+              "location": "Orange\\Smoke\\step.js:6"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 11957783700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Enter the Valid Credentails \"Admin\" and \"admin123\"",
+            "match": {
+              "location": "Orange\\Smoke\\step.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1471063200
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 425499
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "orange-hrm-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Orange HRM Login",
+    "tags": [],
+    "uri": "Orange\\Smoke\\Login.feature"
+  }
+]

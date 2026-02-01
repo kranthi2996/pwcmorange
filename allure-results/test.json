@@ -1,0 +1,51 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "orange-hrm-login;:-to-verify-that-user-is-able-to-login-into-system-succesfully",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": ": To Verify that User is able to Login into system succesfully",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "Launch the HRM Portal",
+            "match": {
+              "location": "Orange\\Smoke\\step.js:5"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 642999,
+              "error_message": "TypeError: Cannot read properties of undefined (reading 'goto')\n    at AllureCucumberWorld.<anonymous> (C:\\Users\\krant\\OneDrive\\Documents\\PwCmOrange\\Orange\\Smoke\\step.js:6:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "Enter the Valid Credentails \"Admin\" and \"admin123\"",
+            "match": {
+              "location": "Orange\\Smoke\\step.js:10"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "orange-hrm-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Orange HRM Login",
+    "tags": [],
+    "uri": "Orange\\Smoke\\Login.feature"
+  }
+]
