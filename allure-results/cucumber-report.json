@@ -4,43 +4,65 @@
     "elements": [
       {
         "description": "",
-        "id": "orange-hrm-login;:-to-verify-that-user-is-able-to-login-into-system-succesfully",
+        "id": "regression;to-verify-that-user-can-successfully-update-personal-details",
         "keyword": "Scenario",
-        "line": 3,
-        "name": ": To Verify that User is able to Login into system succesfully",
+        "line": 5,
+        "name": "To verify that user can successfully update personal details",
         "steps": [
           {
             "keyword": "Before",
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 748512199
+              "duration": 722296300
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "failed",
+              "duration": 8454700,
+              "error_message": "TypeError: myinfo is not a constructor\n    at World.<anonymous> (C:\\Users\\krant\\OneDrive\\Documents\\PwCmOrange\\pwcmorange\\Orange\\regression\\regression.step.js:10:19)"
             }
           },
           {
             "arguments": [],
             "keyword": "Given ",
-            "line": 4,
+            "line": 6,
             "name": "Launch the HRM Portal",
             "match": {
-              "location": "Orange\\Smoke\\step.js:6"
+              "location": "Orange\\Smoke\\step.js:10"
             },
             "result": {
-              "status": "passed",
-              "duration": 5195836199
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
             "arguments": [],
             "keyword": "Then ",
-            "line": 5,
+            "line": 7,
             "name": "Enter the Valid Credentails \"Admin\" and \"admin123\"",
             "match": {
-              "location": "Orange\\Smoke\\step.js:19"
+              "location": "Orange\\Smoke\\step.js:18"
             },
             "result": {
-              "status": "passed",
-              "duration": 3156625200
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Navigate to My Info section",
+            "match": {
+              "location": "Orange\\regression\\regression.step.js:14"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
             }
           },
           {
@@ -48,19 +70,24 @@
             "hidden": true,
             "result": {
               "status": "passed",
-              "duration": 605725800
+              "duration": 545869000
             }
           }
         ],
-        "tags": [],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 4
+          }
+        ],
         "type": "scenario"
       }
     ],
-    "id": "orange-hrm-login",
+    "id": "regression",
     "line": 1,
     "keyword": "Feature",
-    "name": "Orange HRM Login",
+    "name": "regression",
     "tags": [],
-    "uri": "Orange\\Smoke\\Login.feature"
+    "uri": "Orange\\regression\\regression.feature"
   }
 ]

@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx cucumber-js && node convert-to-allure.js && allure generate --clean -o allure-report --exit",
-    "report": "allure open allure-report"
+    "smoke": "npx cucumber-js --tags @smoke",
+    "regression": "npx cucumber-js --tags @regression",
+    "report": "allure generate --clean -o allure-report && allure open allure-report"
   },
   "keywords": [],
   "author": "",
